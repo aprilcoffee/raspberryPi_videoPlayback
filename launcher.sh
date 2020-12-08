@@ -4,5 +4,5 @@
 sleep 5
 cd /
 cd /home/pi/Desktop/raspberryPi_videoPlayback/
-omxplayer --no-osd --loop -b --aspect-mode fill test_pattern_1080p.mp4 
+omxplayer --no-osd --loop -b --aspect-mode fill -o both video.mp4 
 cd /
